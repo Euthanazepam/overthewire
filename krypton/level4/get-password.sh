@@ -10,6 +10,6 @@ fi
 
 CIPHER=$(cat krypton5 | sed 's/ //g')
 KEY='FREKEY'
-PASSWORD=$(python vigenere.py $CIPHER $KEY)
+PASSWORD=$(python ../vigenere.py $CIPHER $KEY)
 
 echo $PASSWORD
