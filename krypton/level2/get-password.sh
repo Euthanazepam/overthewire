@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# https://overthewire.org/wargames/krypton/krypton2.html
+# This script finds the password for the next level from the task https://overthewire.org/wargames/krypton/krypton2.html
 
 if [ ! -f krypton3 ]; then
   scp -P 2231 krypton2@krypton.labs.overthewire.org:/krypton/krypton2/krypton3 .
