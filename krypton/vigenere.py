@@ -1,5 +1,6 @@
 import sys
 
+
 def decrypt(cipher_text, key) -> str:
     """
     Decryption function for the Vigenère cipher.
