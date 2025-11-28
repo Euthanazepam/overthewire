@@ -1,6 +1,11 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+#
+# Description:
 # This script finds the password for the next level from the task https://overthewire.org/wargames/krypton/krypton6.html
+#
+# Usage:
+# ./get-password.sh
+#
 
 if [ ! -f krypton7 ]; then
   scp -P 2231 krypton6@krypton.labs.overthewire.org:/krypton/krypton6/krypton7 .

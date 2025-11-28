@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+# Standard library imports
 import sys
 
 
@@ -5,7 +8,7 @@ def frequency(string: str) -> None:
     """
     Counts the number of characters in the text
     """
-    
+
     char_count = {}
     for char in string:
         if char in char_count:
